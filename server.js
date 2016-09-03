@@ -40,6 +40,6 @@ res.end("{" +
 "\"x1\":"+r[0]+", "+
 "\"x2\":"+r[1]
 +"}");
-}).listen(process.env.PORT||3000,"127.0.0.1");
+}).listen(process.env.PORT||3000);
 
 sys.puts("Server Running 3l http://127.0.0.1:3000/ Ya habib");
