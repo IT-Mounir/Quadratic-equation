@@ -13,8 +13,8 @@ myFun: function(a,b,c){
 		x1 = x2 = parseFloat(-b/(2*a)).toFixed(4);
 	  }
 	  else if(d < 0){
-		x1 = "not found";
-		x2= "not found";
+		x1 = "notFound";
+		x2= "notFound";
 }
 return x1+" "+x2;
 }
@@ -42,4 +42,4 @@ res.end("{" +
 +"}");
 }).listen(process.env.PORT||3000);
 
-sys.puts("Server Running 3l http://127.0.0.1:3000/ Ya habib");
+//sys.puts("Server Running 3l http://127.0.0.1:3000/ Ya habib");
